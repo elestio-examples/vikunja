@@ -2,7 +2,7 @@ version: "3"
 
 services:
   vikunja:
-    image: vikunja/vikunja:${SOFTWARE_VERSION_TAG}
+    image: elestio/vikunja:${SOFTWARE_VERSION_TAG}
     restart: always
     environment:
       VIKUNJA_SERVICE_PUBLICURL: https://${DOMAIN}
